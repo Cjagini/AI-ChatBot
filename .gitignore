@@ -1,0 +1,48 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies/Lock files (but keep package.json, requirements.txt)
+# These are regenerated during deploy
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
